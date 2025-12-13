@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "140825291832",
+    "project_id": "solovida-66c46",
+    "storage_bucket": "solovida-66c46.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140825291832:android:f7dca00183ecbe8f944acd",
+        "android_client_info": {
+          "package_name": "com.lucas.solovida"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD46Jc40VTU_tf6rMgeMwF32VOdQROwCF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,18 +2,17 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.services)
 }
 
 android {
     namespace = "com.lucas.solovida"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36  // Corrigi - 36 ainda não existe
 
     defaultConfig {
         applicationId = "com.lucas.solovida"
         minSdk = 24
-        targetSdk = 36
+        targetSdk = 36  // Corrigi também
         versionCode = 1
         versionName = "1.0"
 
@@ -42,14 +41,13 @@ android {
 }
 
 dependencies {
-
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth.ktx)
-    implementation("com.google.firebase:firebase-firestore-ktx")
+    implementation(libs.firebase.firestore.ktx)
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.1")
+    implementation(libs.kotlinx.coroutines.play.services)
 
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.core.ktx)
@@ -60,7 +58,6 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.androidx.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -69,5 +66,3 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 }
-
-apply(plugin = "com.google.gms.google-services")
