@@ -1,0 +1,21 @@
+[33mc16b87a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: rebase (finish): returning to refs/heads/main
+[33mc16b87a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: rebase (pick): add register screen to navController
+[33mefc8087[m HEAD@{2}: rebase (pick): create a enum to manage consts
+[33m68c3359[m HEAD@{3}: rebase (pick): create component to app's logo
+[33m856fc7f[m HEAD@{4}: rebase (pick): create sketch to register screen
+[33mff12a31[m HEAD@{5}: rebase (pick): build
+[33m627ddfe[m HEAD@{6}: rebase (pick): create email/password input components
+[33m8366e4e[m HEAD@{7}: rebase (pick): creating colors
+[33md953e3b[m HEAD@{8}: rebase (start): checkout HEAD~10
+[33m1463d2f[m HEAD@{9}: rebase (finish): returning to refs/heads/main
+[33m1463d2f[m HEAD@{10}: rebase (start): checkout HEAD~5
+[33m1463d2f[m HEAD@{11}: commit: add register screen to navController
+[33m56eb697[m HEAD@{12}: commit: create a enum to manage consts
+[33m662bd91[m HEAD@{13}: commit: create component to app's logo
+[33m8912153[m HEAD@{14}: commit: create sketch to register screen
+[33m38c7298[m HEAD@{15}: commit: build
+[33m01ad88c[m HEAD@{16}: commit: create email/password input components
+[33m5734e9e[m HEAD@{17}: commit: creating colors
+[33m43d15b6[m HEAD@{18}: commit: adding images
+[33md953e3b[m HEAD@{19}: commit: fixing configuration issues
+[33mb740c31[m HEAD@{20}: clone: from https://github.com/LukasPio/SoloVida.git
