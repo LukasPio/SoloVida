@@ -10,6 +10,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.lucas.solovida.screens.Home
 import com.lucas.solovida.screens.Login
+import com.lucas.solovida.screens.Register
 import com.lucas.solovida.ui.theme.SoloVidaTheme
 
 class MainActivity : ComponentActivity() {
@@ -32,6 +33,11 @@ fun AppNavigation() {
         composable("login") {
             Login(navController)
         }
+
+        composable("register") {
+            Register(navController)
+        }
+
         composable("home") {
             Home(navController)
         }
